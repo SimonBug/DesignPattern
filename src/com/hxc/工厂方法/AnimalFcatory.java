@@ -1,11 +1,11 @@
-package com.hxc.abstractfactory;
+package com.hxc.工厂方法;
 
 /**
+ * 工厂类
  * Created by Administrator on 2017/3/14 0014.
  */
-public class AnimalFactory extends AbstractAnimalFactory{
-    @Override
-        Animal getAnimal(String animal) {
+public class AnimalFcatory {
+    public Animal getAnimal(String animal){
         if("cat".equals(animal)){
             return new Cat();
         }else if("dog".equals(animal)){
@@ -15,10 +15,5 @@ public class AnimalFactory extends AbstractAnimalFactory{
         }else{
             return null;
         }
-    }
-
-    @Override
-    Color getColor(String color) {
-        return null;
     }
 }

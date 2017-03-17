@@ -1,5 +1,4 @@
-package com.hxc.abstractfactory;
-
+package com.hxc.工厂方法;
 
 /**
  * 具体产品

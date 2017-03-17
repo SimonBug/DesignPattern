@@ -1,4 +1,5 @@
-package com.hxc.factorymethod;
+package com.hxc.抽象工厂;
+
 
 /**
  * 具体产品

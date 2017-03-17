@@ -1,11 +1,11 @@
-package com.hxc.factorymethod;
+package com.hxc.抽象工厂;
 
 /**
- * 工厂类
  * Created by Administrator on 2017/3/14 0014.
  */
-public class AnimalFcatory {
-    public Animal getAnimal(String animal){
+public class AnimalFactory extends AbstractAnimalFactory{
+    @Override
+        Animal getAnimal(String animal) {
         if("cat".equals(animal)){
             return new Cat();
         }else if("dog".equals(animal)){
@@ -15,5 +15,10 @@ public class AnimalFcatory {
         }else{
             return null;
         }
+    }
+
+    @Override
+    Color getColor(String color) {
+        return null;
     }
 }

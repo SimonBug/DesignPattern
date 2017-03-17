@@ -1,4 +1,4 @@
-package com.hxc.factorymethod;
+package com.hxc.工厂方法;
 
 /**
  * Created by Administrator on 2017/3/14 0014.
