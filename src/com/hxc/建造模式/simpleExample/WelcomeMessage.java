@@ -1,7 +1,5 @@
 package com.hxc.建造模式.simpleExample;
 
-import com.hxc.建造模式.AutoMessage;
-
 /**
  * Created by Administrator on 2017/3/21 0021.
  */

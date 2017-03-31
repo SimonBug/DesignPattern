@@ -1,7 +1,5 @@
 package com.hxc.建造模式.simpleExample;
 
-import com.hxc.建造模式.AutoMessage;
-
 import java.util.Date;
 
 /**
