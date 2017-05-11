@@ -23,7 +23,9 @@ public class ReentrantLockTest{
         }
     }
 
-    //显示锁
+    /**
+     * 显示锁
+     */
     private static void synTest() {
         LinkedList list = new LinkedList();
         for(int i=0;i<10000;i++){
@@ -71,7 +73,9 @@ public class ReentrantLockTest{
         System.out.println("SynList need  "+(System.currentTimeMillis()-beginTime));
     }
 
-    //读写锁测试
+    /**
+     * 读写锁测试
+     */
     private static void rwTest() {
         List list = new LinkedList();
         for(int i = 0;i<10000;i++){
